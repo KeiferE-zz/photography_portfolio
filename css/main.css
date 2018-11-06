@@ -1,15 +1,16 @@
 .container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 .menu-container{
-    flex: 1;
+    align-self: center;
+    flex-grow: 1;
 }
 .photo-container{
-    flex: 2;
+    height: 100%;
+    flex-grow: 3;
 }
 .footer{
     flex: 1 100%;
